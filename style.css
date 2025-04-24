@@ -1,0 +1,181 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+}
+
+.upload-area {
+    border: 2px dashed #3498db;
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.upload-area:hover {
+    background-color: #f8f9fa;
+    border-color: #2980b9;
+}
+
+.upload-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+    background-color: #2980b9;
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.file-info {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.platforms {
+    margin-bottom: 30px;
+}
+
+.platform-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.platform-checkbox {
+    display: flex;
+    align-items: center;
+    background-color: #ecf0f1;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.platform-checkbox:hover {
+    background-color: #d6eaf8;
+}
+
+.platform-checkbox input {
+    margin-right: 10px;
+}
+
+.video-info {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.progress-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress {
+    height: 100%;
+    width: 0%;
+    background-color: #2ecc71;
+    transition: width 0.3s;
+}
+
+.status {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+.platform-status {
+    font-size: 14px;
+}
+
+.platform-status div {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.success {
+    background-color: #d5f5e3;
+    color: #27ae60;
+}
+
+.error {
+    background-color: #fadbd8;
+    color: #e74c3c;
+}
+
+.pending {
+    background-color: #fef9e7;
+    color: #f39c12;
+}
